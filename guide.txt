@@ -1,0 +1,21 @@
+1) Make sure you have the latest version of Visual Studio Code and Python downloaded properly
+   - https://www.python.org/downloads
+   - https://code.visualstudio.com/download
+
+2) Open the folder in Visual Studio Code and open a terminal (Ctrl+Shift+`)
+
+3) Run pip install telethon 
+
+4) Get your API ID and HASH from https://my.telegram.org/
+
+5) Put your username, API ID, API Hash, the link of the message you want forwarded and the time interval in seconds in the config.json file
+
+6) Put all of your channel links in channels.txt, with one channel per line
+   - For topics, make sure it is in this format - https://t.me/channelname/topicnumber
+
+7) Run script.py with py script.py
+
+Note:
+Make sure you use an aged telegram account, preferably used, if you want to forward to multiple channels at once. I will not be responsible for accounts being deleted.
+
+If you need any additional help, message @its_sphinx on telegram
